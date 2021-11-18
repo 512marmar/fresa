@@ -52,3 +52,15 @@ body article p:last-of-type{
 body article span:ONLY-OF-TYPE{
     text-transform: uppercase;
 }
+body article h3:nth-child(3n){
+    color: burlywood;
+}
+body article h3:nth-last-child(2n){
+    font-weight: bold;
+}
+body article h2:nth-of-type(2n){
+    color: coral;
+}
+body article h2:nth-last-of-type(2n){
+    font-weight: bold;
+}
