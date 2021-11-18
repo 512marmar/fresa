@@ -1,0 +1,54 @@
+h1{
+    color: black;
+    margin: 15px;
+}
+ body a{
+     color: rgb(64, 201, 23);
+     display: block;
+     margin-top: 2%;
+
+ }
+ body p{
+    color: rgb(64, 201, 23);
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+ body #link:link{
+     color: blueviolet;
+ }
+ body #hover:hover{
+     font-weight: bold;
+ }
+ body #active:active{
+     color: brown;
+ }
+ body #focus:focus{
+     color: crimson;
+ }
+ body input{
+     margin-top: 2%;
+     margin-left: 2%;
+ }
+ body li#first-child{
+     font-weight: bold;
+ }
+ body li:last-child{
+     color: darkgoldenrod;
+ }
+ body li#ONLY-CHILD{
+     text-transform: uppercase;
+ }
+ body article{
+     margin-left: 5%;
+     margin-top: 5%;
+     margin-bottom: 5%;
+ }
+body article p:first-of-type{
+    font-weight: bold;
+}
+body article p:last-of-type{
+    color: rgb(176, 197, 81);
+}
+body article span:ONLY-OF-TYPE{
+    text-transform: uppercase;
+}
